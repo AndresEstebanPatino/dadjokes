@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: azure;
+}
+
+.contenedor{
+    width: 80%;
+    height: 50vh;
+    background-color: rgb(139, 93, 181);
+    margin-top: 20%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.titulo{
+    color: azure;
+    font-size: 35px;
+}
+.contenedor-chiste{
+    width: 90%;
+    height: 30%;
+    background-color: azure;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.boton-chiste{
+    background-color: azure;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: large;
+}
